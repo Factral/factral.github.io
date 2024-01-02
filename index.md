@@ -6,9 +6,7 @@ layout: page
 
 <img src="images/fabiou.jpeg" class="floatpic" width="360" height="480">
 
-Here is **Fabian Perez**.
-
-I am a computer science student at Universidad Industrial de Santander (UIS) in Colombia. I am currently an undergraduate pursuing my bachelor's degree in computer science. I have strong skills in software development and deep learning. My expertise across both these areas allows me to create innovative solutions by bringing them together
+Here is **Fabian Perez**. I am a computer science student at Universidad Industrial de Santander (UIS) in Colombia. I am currently an undergraduate pursuing my bachelor's degree in computer science. I have strong skills in software development and deep learning. My expertise across both these areas allows me to create innovative solutions by bringing them together
 
 If you are interested in any aspect of me, I would love to collaborate, please email me
 

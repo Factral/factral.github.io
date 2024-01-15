@@ -107,18 +107,10 @@ export default function Blog() {
 
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Posts</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:gap-2">
-            {RESUME_DATA.projects.map((project) => {
-              return (
-                <ProjectCard
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  tags={project.techStack}
-                  link={"link" in project ? project.link.href : undefined}
-                />
-              );
-            })}
+          <div className="grid grid-cols-1 gap-3 print:gap-2">
+
+                working on it
+            
           </div>
         </Section>
 

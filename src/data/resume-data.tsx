@@ -37,7 +37,7 @@ export const RESUME_DATA = {
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/Factrak",
+        url: "https://github.com/Factral",
         icon: GitHubIcon,
       },
       {
@@ -64,22 +64,45 @@ export const RESUME_DATA = {
     "Deep Learning",
     "Privacy Preserving Deep Learning",
     "Vision Transformers",
-    "Node.js",
+    "React/NextJS",
     "Applied Machine Learning",
     "Software Development",
+    "Data Analysis"
   ],
   projects: [
     {
-      title: "Project 1",
+      title: "Lineas Hospitalarias web",
       techStack: [
-        "React"
+        "React",  "TailwindCSS", "Firebase"
       ],
-      description: "A web platform",
-      logo: ConsultlyLogo,
+      description: "A platform for the management of products and services of the entity",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "demo vercel",
+        href: "https://biomedical-unab.vercel.app/",
+      },
+    },
+    {
+      title: "SkyWatch App",
+      techStack: [
+        "Flutter", "Dart", "Firebase"
+      ],
+      description: "An app for the control of the personal and the devices installed by the company",
+      link: {
+        label: "demo web",
+        href: "https://sky-watch-app.web.app/",
+      },
+    },
+    {
+      title: "Segmentation of wounds",
+      techStack: [
+        "Pytorch", "Deep Learning", "Computer Vision"
+      ],
+      description: "A project for the segmentation of wounds in images",
+      link: {
+        label: "github repo",
+        href: "https://github.com/Factral/segmentacion-automatica-de-heridas",
       },
     }
+
   ],
 } as const;

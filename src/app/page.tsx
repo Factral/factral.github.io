@@ -10,6 +10,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 import { PaperCard } from "@/components/paper-card";
 import { Semillero } from "@/components/semillero";
+import { AwardCard } from "@/components/award-card";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -185,6 +186,25 @@ export default function Page() {
             githubLink="https://github.com/semilleroCV/"
           />
 
+        </div>
+
+
+        <div className="container mx-auto p-4">
+          <h2 className="text-2xl font-bold mb-4">Awards</h2>
+          <div className="space-y-8 md:-ml-4">
+            <AwardCard
+              award="Google Cloud Vertex AI Agent Builder Hackathon 2024"
+              title="Yipao"
+              images={[
+                'awards/yipao.jpg',
+                'awards/yipao_model.jpg'
+              ]}
+              description="Revolutionizing bussiness intelligence with AI-driven SQL interactions. Simplify complex queries and enhance database efficiency effortlessly"
+              homepageLink="https://devpost.com/software/yipao"
+              position="First Place"
+            />
+            {/* Agrega más componentes AwardCard según sea necesario */}
+          </div>
         </div>
 
       

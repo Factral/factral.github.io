@@ -18,7 +18,7 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import Fabian  from "@/images/fabian.png";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, ScholarIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Fabian Perez",
@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   location: "Bucaramanga, Colombia, GMT-5",
   locationLink: "https://www.google.com/maps/place/Bucaramanga",
   about:
-  "AI researcher, programmer, i like to train neural nets",
+  "AI researcher, i like to train deep neural nets 🧠🤖",
   summary:
     " I am a computer science student at Universidad Industrial de Santander (UIS) in Colombia. I am currently an undergraduate pursuing my bachelor's degree in computer science. I have strong skills in software development and deep learning. My expertise across both these areas allows me to create innovative solutions by bringing them together",
   avatarUrl: Fabian.src,
@@ -35,6 +35,11 @@ export const RESUME_DATA = {
     email: "nelsonfabiancs8@gmail.com",
     tel: "+573134140675",
     social: [
+      {
+        name: "Scholar",
+        url: "https://scholar.google.com/citations?user=59gy5p8AAAAJ&hl=en",
+        icon: ScholarIcon
+      },
       {
         name: "GitHub",
         url: "https://github.com/Factral",
@@ -55,19 +60,43 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Universidad Industrial de Santander",
-      degree: "Bachelor's Degree in Computer Science",
+      degree: "Undergraduate student of Computer Science",
       start: "2020",
-      end: "2024",
+      end: "2024?",
     },
   ],
   skills: [
     "Deep Learning",
     "Privacy Preserving Deep Learning",
     "Vision Transformers",
-    "React/NextJS",
+    "Generative AI",
     "Applied Machine Learning",
     "Software Development",
-    "Data Analysis"
+  ],
+  papers: [
+    {
+      title: "Beyond Appearances: Material Segmentation with Embedded Spectral Information from RGB-D imagery",
+      authors: "Fabian perez, Hoover Rueda-Chacon",
+      conferenceTag: "CVPR 2024 LatinX Workshop",
+      description: "Pioneered a cutting-edge deep learning framework enhancing material segmentation by embedding spectral data into RGB-D images",
+      tags: ["Material Segmentation", "RGB-D imagery", "Multimodal learning"],
+      pdfLink: "https://openaccess.thecvf.com/content/CVPR2024W/LXCV/papers/Perez_Beyond_Appearances_Material_Segmentation_with_Embedded_Spectral_Information_from_RGB-D_CVPRW_2024_paper.pdf",
+      previewLink: "beyondapperances.png",
+      codeLink: "https://github.com/Factral/Spectral-Material-Segmentation",
+      homepageLink: "https://factral.co/Spectral-material-segmentation/",
+    },
+    {
+      title: "Privacy-Preserving Deep Learning Using Deformable Operators for Secure Task Learning",
+      authors: "Fabian perez, Jhon Lopez, Henry Arguello",
+      conferenceTag: "ICASSP 2024",
+      description: "we propose a novel Privacy-Preserving framework that uses a set of deformable operators for secure task learning. Our method involves shuffling pixels during the analog-to-digital conversion process to generate visually protected data",
+      tags: ["Image Privacy", "Deformable Operators", "Computational Imaging"],
+      pdfLink: "https://arxiv.org/pdf/2404.05828",
+      previewLink: "privdl.png",
+      codeLink: "https://github.com/Factral/PrivDL",
+      homepageLink: "http://factral.co/PrivDL/",
+    },
+    // Add more paper objects as needed
   ],
   projects: [
     {

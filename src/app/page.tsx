@@ -8,6 +8,7 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import { PaperCard } from "@/components/paper-card";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -57,18 +58,7 @@ export default function Page() {
                   </a>
                 </Button>
               ) : null}
-              {RESUME_DATA.contact.tel ? (
-                <Button
-                  className="size-8"
-                  variant="ghost"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                    <PhoneIcon className="size-6" />
-                  </a>
-                </Button>
-              ) : null}
+
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
@@ -89,15 +79,11 @@ export default function Page() {
                   <span className="underline">{RESUME_DATA.contact.email}</span>
                 </a>
               ) : null}
-              {RESUME_DATA.contact.tel ? (
-                <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                  <span className="underline">{RESUME_DATA.contact.tel}</span>
-                </a>
-              ) : null}
+              
             </div>
           </div>
 
-          <Avatar className="size-36">
+          <Avatar className="size-44">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
@@ -142,22 +128,52 @@ export default function Page() {
           </div>
         </Section>
 
+
+        <Section>
+          <h2 className="text-2xl font-bold mb-4">Papers</h2>
+          <div className="space-y-6">
+            {RESUME_DATA.papers.map((paper) => (
+
+              <PaperCard
+                key={paper.title}
+                title={paper.title}
+                description={paper.description}
+                tags={paper.tags}
+                pdfLink={paper.pdfLink}
+                previewLink={paper.previewLink}
+                authors={paper.authors}
+                conferenceTag={paper.conferenceTag}
+                codeLink={paper.codeLink}
+                homepageLink={paper.homepageLink}
+              />
+            
+            ))}
+          </div>
+        </Section>
+
+
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
+          
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+            
             {RESUME_DATA.projects.map((project) => {
               return (
-                <ProjectCard
+                <ProjectCard 
                   key={project.title}
                   title={project.title}
                   description={project.description}
                   tags={project.techStack}
                   link={"link" in project ? project.link.href : undefined}
+                 
                 />
               );
             })}
+
           </div>
+        
         </Section>
+      
       </section>
 
       <CommandMenu

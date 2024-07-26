@@ -10,7 +10,7 @@ interface AwardCardProps {
   award: string;
   title: string;
   position: string;
-  images: string[];
+  images: readonly string[];
   description: string;
   homepageLink: string;
 }

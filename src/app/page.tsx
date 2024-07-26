@@ -192,18 +192,22 @@ export default function Page() {
         <div className="container mx-auto p-4">
           <h2 className="text-2xl font-bold mb-4">Awards</h2>
           <div className="space-y-8 md:-ml-4">
-            <AwardCard
-              award="Google Cloud Vertex AI Agent Builder Hackathon 2024"
-              title="Yipao"
-              images={[
-                'awards/yipao.jpg',
-                'awards/yipao_model.jpg'
-              ]}
-              description="Revolutionizing bussiness intelligence with AI-driven SQL interactions. Simplify complex queries and enhance database efficiency effortlessly"
-              homepageLink="https://devpost.com/software/yipao"
-              position="First Place"
-            />
-            {/* Agrega más componentes AwardCard según sea necesario */}
+
+
+            {
+              RESUME_DATA.awards.map((award) => (
+                <AwardCard
+                  key={award.title}
+                  award={award.award}
+                  title={award.title}
+                  images={award.images}
+                  description={award.description}
+                  homepageLink={award.homepageLink}
+                  position={award.position}
+                />
+              ))
+            }
+            
           </div>
         </div>
 

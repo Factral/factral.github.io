@@ -167,4 +167,42 @@ export const RESUME_DATA = {
     }
 
   ],
+  awards: [
+    {
+      "award": "Google Cloud Vertex AI Agent Builder Hackathon 2024",
+      "title": "Yipao",
+      "images": [
+        "awards/yipao.jpg",
+        "awards/yipao_model.jpg"
+      ],
+      "description": "Revolutionizing business intelligence with AI-driven SQL interactions. Simplify complex queries and enhance database efficiency effortlessly",
+      "homepageLink": "https://devpost.com/software/yipao",
+      "position": "First Place"
+    },
+    {
+      "award": "Indra Hackdar 2024",
+      "title": "Hunter",
+      "images": [
+        "awards/hunterteam.jpeg",
+        "awards/hunter.jpeg"
+      ],
+      "description": "Artificial Intelligence model-as-a-service tool that facilitates the process of facilitates the process of recruitment and human talent management in companies, and companies,",
+      "homepageLink": "https://comunicaciones.uis.edu.co/estudiantes-uis-obtienen-el-primer-puesto-en-la-competencia-internacional-hackday-2024-de-indra/",
+      "position": "First Place"
+    },
+    {
+      "award": "AMB Geo2Code 2023",
+      "title": "DeepBeauty",
+      "images": [
+        "awards/hunterteam.jpeg",
+        "awards/hunter.jpeg"
+      ],
+      "description": "semantic segmentation with deep learning models for aerial imagery in Bucaramanga ",
+      "homepageLink": "https://comunicaciones.uis.edu.co/estudiantes-de-ingenieria-de-sistemas-uis-ganadores-del-hackathon-metropolitana-organizada-por-el-amb/",
+      "position": "Second Place"
+    }
+    
+    
+    
+  ]
 } as const;

@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 import { PaperCard } from "@/components/paper-card";
+import { Semillero } from "@/components/semillero";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -155,7 +156,7 @@ export default function Page() {
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3 md:ml-4">
             
             {RESUME_DATA.projects.map((project) => {
               return (
@@ -173,9 +174,21 @@ export default function Page() {
           </div>
         
         </Section>
+
+        <div className="!mt-2">
+            
+            <Semillero
+            title="Semillero Hands-On Computer Vision"
+            imageSrc="hocv.png"
+            description="At Hands-on Computer Vision, we're a passionate group of students and researchers from UIS, dedicated to exploring the cutting-edge of computer vision technology. Our journey is a blend of theory and practice"
+            homepageLink="https://semillerocv.github.io/"
+            githubLink="https://github.com/semilleroCV/"
+          />
+
+        </div>
+
       
       </section>
-
       <CommandMenu
         links={[
           {

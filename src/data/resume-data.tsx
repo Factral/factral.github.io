@@ -131,6 +131,39 @@ export const RESUME_DATA = {
         label: "github repo",
         href: "https://github.com/Factral/segmentacion-automatica-de-heridas",
       },
+    },
+    {
+      title: "Image stitching with superglue",
+      techStack: [
+        "Stitching", "Feature Matching", "Computer Vision"
+      ],
+      description: "Robust image stitching that leverages advanced feature matching techniques to achieve high-quality results",
+      link: {
+        label: "github repo",
+        href: "https://github.com/Factral/image-stitching-supeglue",
+      },
+    },
+    {
+      title: "Spotify song recommender",
+      techStack: [
+        "Deep Learning", "API", "Tabular data"
+      ],
+      description: "Spotify song recommendation system based on music tastes ",
+      link: {
+        label: "github repo",
+        href: "https://github.com/Factral/spotify-song-recommender",
+      },
+    },
+    {
+      title: "Google Translate Dark theme",
+      techStack: [
+        "CSS", "userstyle", "Dark theme"
+      ],
+      description: "A custom dark theme for Google Translate webpage",
+      link: {
+        label: "github repo",
+        href: "https://github.com/Factral/GoogleTranslateDarkTheme",
+      },
     }
 
   ],

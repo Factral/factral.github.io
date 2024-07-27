@@ -22,12 +22,15 @@ export default function Page() {
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
       <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
 
-      <div className="flex items-center gap-x-3 align-baseline leading-none ">
-        <a href="/"><h2 className="font-mono text-sm hover:underline">About</h2></a>
-        |
-        <a href="/blog"><h2 className="font-mono text-sm hover:underline">Blog</h2></a>
+      <div className="flex items-center gap-x-3 align-baseline leading-none">
+          <a href="/"><h2 className="font-mono text-sm hover:underline">About</h2></a>
+          |
+          <a href="/blog"><h2 className="font-mono text-sm hover:underline">Blog</h2></a>
+          |
+          <a href="#papers"><h2 className="font-mono text-sm hover:underline">Papers</h2></a>
+          |
+          <a href="#awards"><h2 className="font-mono text-sm hover:underline">Awards</h2></a>
       </div>
-
 
         <div className="flex items-center justify-between gap-x-10 pt-8">
           <div className="flex-1  space-y-2">
@@ -131,7 +134,7 @@ export default function Page() {
         </Section>
 
 
-        <Section>
+        <Section id="papers">
           <h2 className="text-2xl font-bold mb-4">Papers</h2>
           <div className="space-y-6">
             {RESUME_DATA.papers.map((paper) => (
@@ -189,7 +192,7 @@ export default function Page() {
         </div>
 
 
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-4" id="awards">
           <h2 className="text-2xl font-bold mb-4">Awards</h2>
           <div className="space-y-8 md:-ml-4">
 

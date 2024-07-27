@@ -194,11 +194,24 @@ export const RESUME_DATA = {
       "award": "AMB Geo2Code 2023",
       "title": "DeepBeauty",
       "images": [
-        "awards/hunterteam.jpeg",
-        "awards/hunter.jpeg"
+        "awards/deepbeauty.jpeg",
+        "awards/deepbeauty_amigopaula.jpg",
+        "awards/deepbeauty_team.jpg"
       ],
-      "description": "semantic segmentation with deep learning models for aerial imagery in Bucaramanga ",
+      "description": "My favorite hackathon, a deep learning model for automatic semantic segmentation for aerial imagery in Bucaramanga ",
       "homepageLink": "https://comunicaciones.uis.edu.co/estudiantes-de-ingenieria-de-sistemas-uis-ganadores-del-hackathon-metropolitana-organizada-por-el-amb/",
+      "position": "Second Place"
+    },
+    {
+      "award": "Financiera Comultrasan Fedesoft Hackathon 2023",
+      "title": "FcPay",
+      "images": [
+        "awards/fcpay.jpg",
+        "awards/fcpay_winners.jpg",
+        "awards/fcpay_expo.jpg"
+      ],
+      "description": "payment code creation and money management application",
+      "homepageLink": "https://www.linkedin.com/posts/fedesoft_hackathon-softictransformandoindustrias-activity-7120839573647052800-UE26/?originalSubdomain=es",
       "position": "Second Place"
     }
     

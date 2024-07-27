@@ -86,6 +86,17 @@ export default function Page() {
               ) : null}
               
             </div>
+
+
+
+
+            <div className="flex pt-1 font-mono text-sm text-muted-foreground print:hidden">
+              <a href='cv.pdf' target="_blank" className="underline">
+                Download CV
+              </a>
+            </div>
+
+
           </div>
 
           <Avatar className="size-44">

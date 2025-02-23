@@ -60,10 +60,22 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Universidad Industrial de Santander",
-      degree: "Undergraduate student of Computer Science",
-      start: "2020",
-      end: "2024?",
+      degree: "MSc(s) Computer Science",
+      start: "2025",
+      end: "2027?",
     },
+    {
+      school: "King Abdullah University of Science and Technology",
+      degree: "Research Internship",
+      start: "September 2024",
+      end: "February 2025",
+    },
+    {
+      school: "Universidad Industrial de Santander",
+      degree: "BSc Computer Science",
+      start: "2020",
+      end: "2024",
+    }
   ],
   skills: [
     "Deep Learning",

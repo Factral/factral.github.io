@@ -145,25 +145,25 @@ export default function Page() {
         </Section>
 
         <Section>
-  <h2 className="text-xl font-bold">Recent Highlights</h2>
-  <ul className="list-disc space-y-2 pl-5 font-mono text-sm text-muted-foreground">
-    <li>
-      <span className="font-semibold">February 2025:</span> Started my Master's in Computer Science under the supervision of <a href="https://hfarueda.com" target="_blank" className="underline">Prof. Hoover F. Rueda</a>.
-    </li>
-    <li>
-      <span className="font-semibold">December 2024:</span> Graduated with a Bachelor's degree in Computer Science.
-    </li>
-    <li>
-      <span className="font-semibold">October 2024:</span> Presented and defended my undergraduate thesis, which received honors (laureated).
-    </li>
-    <li>
-      <span className="font-semibold">September 2024:</span> Started a Research Internship at King Abdullah University of Science and Technology (KAUST), working on 3D Hyperspectral Imaging.
-    </li>
-    <li>
-      <span className="font-semibold">July 2024:</span> Our paper <a  target="_blank" className="underline" href="https://openaccess.thecvf.com/content/CVPR2024W/LXCV/papers/Perez_Beyond_Appearances_Material_Segmentation_with_Embedded_Spectral_Information_from_RGB-D_CVPRW_2024_paper.pdf"><span className="italic">"Beyond Appearances: Material Segmentation with Embedded Spectral Information from RGB-D imagery"</span></a> was accepted at CVPR 2024 LatinX Workshop.
-    </li>
-  </ul>
-</Section>
+          <h2 className="text-xl font-bold">Recent Highlights</h2>
+          <ul className="list-disc space-y-2 pl-5 font-mono text-sm text-muted-foreground">
+            <li>
+              <span className="font-semibold">February 2025:</span> Started my Master&apos;s in Computer Science under the supervision of <a href="https://hfarueda.com" target="_blank" className="underline">Prof. Hoover F. Rueda</a>.
+            </li>
+            <li>
+              <span className="font-semibold">December 2024:</span> Graduated with a Bachelor&apos;s degree in Computer Science.
+            </li>
+            <li>
+              <span className="font-semibold">October 2024:</span> Presented and defended my undergraduate thesis, which received honors (laureated).
+            </li>
+            <li>
+              <span className="font-semibold">September 2024:</span> Started a Research Internship at King Abdullah University of Science and Technology (KAUST), working on 3D Hyperspectral Imaging.
+            </li>
+            <li>
+              <span className="font-semibold">July 2024:</span> Our paper <a target="_blank" className="underline" href="https://openaccess.thecvf.com/content/CVPR2024W/LXCV/papers/Perez_Beyond_Appearances_Material_Segmentation_with_Embedded_Spectral_Information_from_RGB-D_CVPRW_2024_paper.pdf"><span className="italic">&quot;Beyond Appearances: Material Segmentation with Embedded Spectral Information from RGB-D imagery&quot;</span></a> was accepted at CVPR 2024 LatinX Workshop.
+            </li>
+          </ul>
+        </Section>
 
 
 

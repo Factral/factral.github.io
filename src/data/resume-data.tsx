@@ -87,6 +87,17 @@ export const RESUME_DATA = {
   ],
   papers: [
     {
+      title: "UnMix-NeRF: Spectral Unmixing Meets Neural Radiance Fields",
+      authors: "Fabian Perez, Sara Rojas Martinez, Carlos Hinojosa, Hoover Rueda-Chacón, Bernard Ghanem",
+      conferenceTag: "ICCV 2025",
+      description: "UnMix-NeRF integrates spectral unmixing with NeRFs to enable simultaneous hyperspectral view synthesis and unsupervised material segmentation. Unlike traditional NeRFs that rely solely on RGB, our approach captures the intrinsic spectral properties of materials, allowing precise material segmentation and scene editing.",
+      tags: ["Neural Radiance Fields", "Spectral Unmixing", "Hyperspectral Imaging", "Material Segmentation"],
+      pdfLink: "https://www.arxiv.org/pdf/2506.21884",
+      previewLink: "unmix.png",
+      codeLink: "https://github.com/factral/UnMix-NeRF/",
+      homepageLink: "https://www.factral.co/UnMix-NeRF/",
+    },
+    {
       title: "Beyond Appearances: Material Segmentation with Embedded Spectral Information from RGB-D imagery",
       authors: "Fabian perez, Hoover Rueda-Chacon",
       conferenceTag: "CVPR 2024 LatinX Workshop",

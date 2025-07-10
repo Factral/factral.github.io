@@ -148,6 +148,9 @@ export default function Page() {
           <h2 className="text-xl font-bold">Recent Highlights</h2>
           <ul className="list-disc space-y-2 pl-5 font-mono text-sm text-muted-foreground">
             <li>
+              <span className="font-semibold">July 2025:</span> 🚀 Excited to share that our paper <a href="https://www.factral.co/UnMix-NeRF/" target="_blank" className="underline italic">&quot;UnMix-NeRF: Spectral Unmixing Meets Neural Radiance Fields&quot;</a> has been accepted to ICCV 2025!
+            </li>
+            <li>
               <span className="font-semibold">June 2025:</span> Our team at Hands-on Computer Vision won first place 🥇  in the <a href="https://www.soccer-net.org/tasks/monocular-depth-estimation" target="_blank" className="underline">SoccerNet Monocular Depth Estimation Challenge</a>, presented at the CVSports Workshop during CVPR 2025.
             </li>
             <li>

@@ -28,7 +28,7 @@ export const RESUME_DATA = {
   about:
   "AI researcher, i like to train deep neural nets 🧠🤖",
   summary:
-    " I am a computer science student at Universidad Industrial de Santander (UIS) in Colombia. I am currently an undergraduate pursuing my bachelor's degree in computer science. I have strong skills in software development and deep learning. My expertise across both these areas allows me to create innovative solutions by bringing them together",
+    " I am a computer science student at Universidad Industrial de Santander (UIS) in Colombia. I am currently a master student in computer science. I have strong skills in software development and deep learning. My expertise across both these areas allows me to create innovative solutions by bringing them together",
   avatarUrl: Fabian.src,
   personalWebsiteUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   contact: {

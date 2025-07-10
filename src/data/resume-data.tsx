@@ -65,6 +65,12 @@ export const RESUME_DATA = {
       end: "2027?",
     },
     {
+      school: "University of Delaware",
+      degree: "Summer Research Program",
+      start: "June 2025",
+      end: "August 2025",
+    },
+    {
       school: "King Abdullah University of Science and Technology",
       degree: "Research Internship",
       start: "September 2024",

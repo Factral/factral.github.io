@@ -28,7 +28,7 @@ export const RESUME_DATA = {
   about:
   "AI researcher, i like to train deep neural nets 🧠🤖",
   summary:
-    " I am a computer science student at Universidad Industrial de Santander (UIS) in Colombia. I am currently an undergraduate pursuing my bachelor's degree in computer science. I have strong skills in software development and deep learning. My expertise across both these areas allows me to create innovative solutions by bringing them together",
+    " I am a computer science student at Universidad Industrial de Santander (UIS) in Colombia. I am currently a master student in computer science. I have strong skills in software development and deep learning. My expertise across both these areas allows me to create innovative solutions by bringing them together",
   avatarUrl: Fabian.src,
   personalWebsiteUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   contact: {
@@ -65,6 +65,12 @@ export const RESUME_DATA = {
       end: "2027?",
     },
     {
+      school: "University of Delaware",
+      degree: "Summer Research Program",
+      start: "June 2025",
+      end: "August 2025",
+    },
+    {
       school: "King Abdullah University of Science and Technology",
       degree: "Research Internship",
       start: "September 2024",
@@ -86,6 +92,17 @@ export const RESUME_DATA = {
     "Software Development",
   ],
   papers: [
+    {
+      title: "UnMix-NeRF: Spectral Unmixing Meets Neural Radiance Fields",
+      authors: "Fabian Perez, Sara Rojas Martinez, Carlos Hinojosa, Hoover Rueda-Chacón, Bernard Ghanem",
+      conferenceTag: "ICCV 2025",
+      description: "UnMix-NeRF integrates spectral unmixing with NeRFs to enable simultaneous hyperspectral view synthesis and unsupervised material segmentation. Unlike traditional NeRFs that rely solely on RGB, our approach captures the intrinsic spectral properties of materials, allowing precise material segmentation and scene editing.",
+      tags: ["Neural Radiance Fields", "Spectral Unmixing", "Hyperspectral Imaging", "Material Segmentation"],
+      pdfLink: "https://www.arxiv.org/pdf/2506.21884",
+      previewLink: "unmix.png",
+      codeLink: "https://github.com/factral/UnMix-NeRF/",
+      homepageLink: "https://www.factral.co/UnMix-NeRF/",
+    },
     {
       title: "Beyond Appearances: Material Segmentation with Embedded Spectral Information from RGB-D imagery",
       authors: "Fabian perez, Hoover Rueda-Chacon",

@@ -144,6 +144,37 @@ export default function Page() {
           </div>
         </Section>
 
+        <Section>
+          <h2 className="text-xl font-bold">Recent Highlights</h2>
+          <ul className="list-disc space-y-2 pl-5 font-mono text-sm text-muted-foreground">
+            <li>
+              <span className="font-semibold">July 2025:</span> 🚀 Excited to share that our paper <a href="https://www.factral.co/UnMix-NeRF/" target="_blank" className="underline italic">&quot;UnMix-NeRF: Spectral Unmixing Meets Neural Radiance Fields&quot;</a> has been accepted to ICCV 2025!
+            </li>
+            <li>
+              <span className="font-semibold">June 2025:</span> Our team at Hands-on Computer Vision won first place 🥇  in the <a href="https://www.soccer-net.org/tasks/monocular-depth-estimation" target="_blank" className="underline">SoccerNet Monocular Depth Estimation Challenge</a>, presented at the CVSports Workshop during CVPR 2025.
+            </li>
+            <li>
+              <span className="font-semibold">June 2025:</span> Selected for the University of Delaware Summer Research Program under the mentorship of <a href="https://www.ece.udel.edu/people/faculty/arce/" target="_blank" className="underline">Prof. Gonzalo Arce</a>.
+            </li>
+            <li>
+              <span className="font-semibold">February 2025:</span> Started my Master&apos;s in Computer Science under the supervision of <a href="https://hfarueda.com" target="_blank" className="underline">Prof. Hoover F. Rueda</a>.
+            </li>
+            <li>
+              <span className="font-semibold">December 2024:</span> Graduated with a Bachelor&apos;s degree in Computer Science.
+            </li>
+            <li>
+              <span className="font-semibold">October 2024:</span> Presented and defended my undergraduate thesis, which received honors (laureated).
+            </li>
+            <li>
+              <span className="font-semibold">September 2024:</span> Started a Research Internship at King Abdullah University of Science and Technology (KAUST), working on 3D Hyperspectral Imaging.
+            </li>
+            <li>
+              <span className="font-semibold">July 2024:</span> Our paper <a target="_blank" className="underline" href="https://openaccess.thecvf.com/content/CVPR2024W/LXCV/papers/Perez_Beyond_Appearances_Material_Segmentation_with_Embedded_Spectral_Information_from_RGB-D_CVPRW_2024_paper.pdf"><span className="italic">&quot;Beyond Appearances: Material Segmentation with Embedded Spectral Information from RGB-D imagery&quot;</span></a> was accepted at CVPR 2024 LatinX Workshop.
+            </li>
+          </ul>
+        </Section>
+
+
 
         <Section id="papers">
           <h2 className="text-2xl font-bold mb-4">Papers</h2>

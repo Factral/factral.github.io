@@ -219,7 +219,7 @@ export const RESUME_DATA = {
       "position": "First Place"
     },
     {
-      "award": "Indra Hackdar 2024",
+      "award": "Indra Hackday 2024",
       "title": "Hunter",
       "images": [
         "awards/hunterteam.jpeg",

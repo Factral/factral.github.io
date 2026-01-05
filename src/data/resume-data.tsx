@@ -198,6 +198,16 @@ export const RESUME_DATA = {
   ],
   awards: [
     {
+      "award": "SoccerNet Monocular Depth Estimation Challenge 2025",
+      "title": "HOCV",
+      "images": [
+        "awards/soccernet.png"
+      ],
+      "description": "First place in the SoccerNet Monocular Depth Estimation Challenge 2025 presented at the CVSports Workshop during CVPR 2025",
+      "homepageLink": "https://arxiv.org/pdf/2508.19182",
+      "position": "First Place"
+    },
+    {
       "award": "Google Cloud Vertex AI Agent Builder Hackathon 2024",
       "title": "Yipao",
       "images": [

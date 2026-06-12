@@ -93,6 +93,17 @@ export const RESUME_DATA = {
   ],
   papers: [
     {
+      title: "Set-Based Transformer for Atmospheric Compensation in Standoff LWIR Hyperspectral Imaging",
+      authors: "Fabian Perez, Nicolas Quintero, Jeferson Acevedo, Hoover Rueda-Chacón",
+      conferenceTag: "IGARSS 2026 (Oral)",
+      description: "A lightweight set-based deep learning framework that takes multiple radiance measurements at different standoff ranges as input and jointly estimates transmittance, atmospheric path radiance, and a shared downwelling spectrum for passive LWIR hyperspectral imaging compensation.",
+      tags: ["Atmospheric Compensation", "LWIR Hyperspectral Imaging", "Transformers", "Remote Sensing"],
+      pdfLink: "https://arxiv.org/pdf/2606.08324",
+      previewLink: "saelwir.png",
+      codeLink: "https://github.com/Factral/SAE-LWIR",
+      homepageLink: "https://factral.co/SAE-LWIR/",
+    },
+    {
       title: "UnMix-NeRF: Spectral Unmixing Meets Neural Radiance Fields",
       authors: "Fabian Perez, Sara Rojas Martinez, Carlos Hinojosa, Hoover Rueda-Chacón, Bernard Ghanem",
       conferenceTag: "ICCV 2025",

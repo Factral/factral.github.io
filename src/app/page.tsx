@@ -148,6 +148,9 @@ export default function Page() {
           <h2 className="text-xl font-bold">Recent Highlights</h2>
           <ul className="list-disc space-y-2 pl-5 font-mono text-sm text-muted-foreground">
             <li>
+              <span className="font-semibold">June 2026:</span> 🎙️ Our paper <a href="https://factral.co/SAE-LWIR/" target="_blank" className="underline italic">&quot;Set-Based Transformer for Atmospheric Compensation in Standoff LWIR Hyperspectral Imaging&quot;</a> has been accepted as an oral presentation at IGARSS 2026!
+            </li>
+            <li>
               <span className="font-semibold">July 2025:</span> 🚀 Excited to share that our paper <a href="https://www.factral.co/UnMix-NeRF/" target="_blank" className="underline italic">&quot;UnMix-NeRF: Spectral Unmixing Meets Neural Radiance Fields&quot;</a> has been accepted to ICCV 2025!
             </li>
             <li>
